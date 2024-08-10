@@ -30,3 +30,6 @@ CREATE TABLE IF NOT EXISTS ff_hack_schema_dm.ff_hack_briefings_dm
 	dm_recruitert_contacts	VARCHAR(256)
 							NOT NULL
 );
+
+-- Назначение владельцем сущности витрины данных роли cnrprod1722884901-team-74157.
+ALTER TABLE IF EXISTS ff_hack_schema_dm.ff_hack_briefings_dm OWNER to "cnrprod1722884901-team-74157";
